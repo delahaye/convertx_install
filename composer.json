@@ -1,0 +1,27 @@
+{
+    "name": "delahaye/convertx_install",
+    "description":"Installer for ConvertX",
+    "keywords":["contao", "import", "importer"],
+    "type": "metapackage",
+    "homepage":"http://convertx.de",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Christian de la Haye",
+            "email":"service@delahaye.de",
+            "homepage":"http://www.delahaye.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/delahaye/convertx/issues"
+    },
+    "conflict": {
+        "contao/core": "3.0.*"
+    },
+    "require": {
+        "delahaye/convertx": "*",
+        "delahaye/convertx_cont_csvfile": "*",
+        "delahaye/convertx_hook_example": "*"
+    }
+}
